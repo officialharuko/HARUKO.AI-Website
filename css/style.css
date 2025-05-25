@@ -378,12 +378,22 @@ a:focus {
   background-color: #ffffff;
   color: #000000;
 }
+// Add this at the bottom or in the relevant section
 @keyframes upDown {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
 }
+
 .slider_section .img-box img {
-  animation: upDown 2s infinite;
+  animation: upDown 4s ease-in-out infinite; // Increase duration for slower animation
+}
+
+// If you want to be extra sure it's active on all devices, add:
+@media (max-width: 768px) {
+  .slider_section .img-box img {
+    animation: upDown 4s ease-in-out infinite;
+  }
 }
 
 .about_section .row {
