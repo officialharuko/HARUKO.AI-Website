@@ -378,7 +378,6 @@ a:focus {
   background-color: #ffffff;
   color: #000000;
 }
-// Add this at the bottom or in the relevant section
 @keyframes upDown {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-20px); }
