@@ -386,7 +386,7 @@ a:focus {
 }
 
 .slider_section .img-box img {
-  animation: upDown 4s ease-in-out infinite; // Increase duration for slower animation
+  animation: upDown 2s ease-in-out infinite; // Increase duration for slower animation
 }
 
 // If you want to be extra sure it's active on all devices, add:
