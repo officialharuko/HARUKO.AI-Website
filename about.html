@@ -47,19 +47,22 @@
             <span class=""> </span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
-              <li class="nav-item ">
+              <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="about.html"> About</a>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Update Log</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="service.html">Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="price.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="store.html">Store</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
@@ -87,36 +90,115 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
-    <div class="container  ">
-      <div class="row">
+  <section class="about_section layout_padding-bottom">
+    <div class="container">
+      <div class="row align-items-center">
         <div class="col-md-6">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                About Us
+                Update Log
               </h2>
             </div>
             <p>
-              Words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks </p>
-            <a href="">
-              Read More
-            </a>
+              HARUKO.AI is an indie AI development company based in specializing in cutting-edge technologies such 
+              as generative AI, GPT, blockchain, Web3, and legal tech. Their services include consulting for 
+              development and planning in these areas, helping businesses and individuals leverage advanced 
+              Artificial Intelligence solutions.
+            </p>
           </div>
         </div>
-        <div class="col-md-6 ">
+        <div class="col-md-6">
           <div class="img-box">
             <img src="images/about-img.png" alt="">
           </div>
         </div>
-
       </div>
+      <!-- Testimonial Carousel: placed directly after the update log row -->
+      <div class="row justify-content-center mt-4">
+        <div class="col-lg-10 position-relative">
+          <!-- Arrows outside the carousel -->
+          <a class="carousel-control-prev custom-arrow-left" href="#testimonialCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next custom-arrow-right" href="#testimonialCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <section class="testimonial_section layout_padding" style="padding-top: 0;">
+            <div class="heading_container" style="margin-bottom: 1.5rem;">
+            </div>
+            <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row align-items-center">
+                    <div class="col-md-3 d-flex justify-content-center">
+                      <!-- Boxed and fitted testimonial photo, now bigger and fully fitted -->
+                      <div style="background:#f8f9fa; border-radius:20px; box-shadow:0 4px 16px #0002; padding:0; display:flex; align-items:center; justify-content:center; width:100%; max-width:200px; min-height:300px; height:300px;">
+                        <img src="images/iphone-home-screen.png" alt="Testimonial Photo" class="img-fluid" style="width:100%; height:100%; object-fit:cover; border-radius:30px;">
+                      </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="testimonial_box">
+                        <h5 style="font-size:1.5rem;">Iphone IOS Release Coming Soon!</h5>
+                        <p style="text-align: justify; font-size:1.15rem;">
+                          HARUKO.AI is expanding its reach with an upcoming iOS release! 
+                          Soon, iPhone users will be able to experience the 
+                          full power of HARUKO.AI with offline functionality, 
+                          customization features, and seamless integration. 
+                          This update ensures that HARUKO.AI remains accessible 
+                          anytime and anywhere, providing a private, efficient, 
+                          and user-controlled AI experience on iOS devices.
+                          Stay tuned for the official launch, where new enhancements 
+                          and optimizations will make HARUKO.AI even better for mobile users. 
+                          Exciting updates are on the way!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="carousel-item">
+                  <div class="row align-items-center">
+                    <div class="col-md-3 d-flex justify-content-center">
+                      <!-- Boxed and fitted testimonial photo, now bigger and fully fitted -->
+                      <div style="background:#f8f9fa; border-radius:20px; box-shadow:0 4px 16px #0002; padding:0; display:flex; align-items:center; justify-content:center; width:100%; max-width:200px; min-height:300px; height:300px;">
+                        <img src="images/navigate_labeled_graphic.jpg" alt="Testimonial Photo" class="img-fluid" style="width:100%; height:100%; object-fit:cover; border-radius:30px;">
+                      </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="testimonial_box">
+                        <h5 style="font-size:1.5rem;">MacOS Release Coming Soon!</h5>
+                        <p style="text-align: justify; font-size:1.15rem;">
+                         HARUKO.AI is also preparing for its MacOS release! 
+                         Soon, Mac users will be able to experience HARUKO.AI’s 
+                         customizable, offline AI capabilities directly on their devices. 
+                         This update ensures smooth performance, enhanced integration, and a 
+                         seamless experience tailored for MacOS. Whether for work, research, 
+                         or personal use, HARUKO.AI continues to prioritize privacy, efficiency, 
+                         and user control. Stay tuned for more details as we bring HARUKO.AI 
+                         to even more platforms! Exciting updates ahead!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </section>
+        </div>
+      </div>
+      <!-- Testimonial Carousel END -->
     </div>
   </section>
 
   <!-- end about section -->
 
-  <!-- info section -->
+<!-- info section -->
 
   <section class="info_section layout_padding2">
     <div class="container">
@@ -197,7 +279,10 @@
               Info
             </h4>
             <p>
-              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+              HARUKO.AI is a customizable, offline AI assistant designed for privacy, 
+              efficiency, and user control. It empowers users with personalized AI 
+              interactions, working seamlessly anytime and anywhere without relying on 
+              cloud services. 
             </p>
           </div>
         </div>
@@ -217,14 +302,12 @@
   </section>
 
   <!-- end info section -->
-
-
   <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        <a href="https://html.design/">Harold Kent V. Roxas - HARUKO.AI</a>
       </p>
     </div>
   </footer>

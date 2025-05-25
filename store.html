@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Store - HARUKO.AI</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    .store_item {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .store_item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .img-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+      transition: background-color 0.3s;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+    <script src="https://www.paypalobjects.com/ncp/cart/cart.js" data-merchant-id="4R89ZF2GM5QQ8"></script>
+  <!-- Header Section -->
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>HARUKO.AI</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Update Log</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="price.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="store.html">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <div class="quote_btn-container">
+              <form class="form-inline">
+                <button class="btn   nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call : +63 9945083059
+                </span>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  <!-- End Header Section -->
+
+  <!-- Store Section -->
+    <paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
+    <script>cartPaypal.Cart({ id: "pp-view-cart" }) </script>
+  <section class="store_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2 style="color: #fffdfd; font-weight: 700;">Our Store</h2>
+        <p style="color: #ffffff; font-size: 16px;">Explore our collection of items and services available for purchase.</p>
+      </div>
+      <div class="row">
+        <!-- Item 1 -->
+        <div class="col-md-4">
+          <div class="store_item" style="background: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <div class="img-box">
+              <img src="images/Flash.jpeg" alt="Item 1" style="width: 100%; height: auto; border-bottom: 1px solid #eee;">
+            </div>
+            <div class="detail-box" style="padding: 20px; text-align: center;">
+              <h4 style="font-size: 20px; font-weight: 600; color: #333;">Item 1</h4>
+              <p style="font-size: 14px; color: #666; cursor:pointer; text-align: justify;" data-toggle="modal" data-target="#item1DescModal">
+                The CH341A Programmer is a versatile USB-based tool used for programming and debugging EEPROM, SPI flash memory, and other ICs...
+                <span style="color:#007bff; text-decoration:underline;">Read more</span>
+              </p>
+              <h5 style="font-size: 18px; font-weight: 700; color: #007bff;">₱ 500.00</h5>
+              <button class="btn btn-primary" data-toggle="modal" data-target="#item1Modal" style="background-color: #007bff; border: none; padding: 10px 20px; font-size: 14px; font-weight: 600; border-radius: 5px; transition: background-color 0.3s;">Buy Now</button>
+              <button class="btn btn-secondary" data-toggle="modal" data-target="#addToCartModal1" style="background-color: #6c757d; border: none; padding: 10px 20px; font-size: 14px; font-weight: 600; border-radius: 5px; transition: background-color 0.3s;">Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="col-md-4">
+          <div class="store_item" style="background: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <div class="img-box">
+              <img src="images/EP32.png" alt="Item 2" style="width: 100%; height: auto; border-bottom: 1px solid #eee;">
+            </div>
+            <div class="detail-box" style="padding: 20px; text-align: center;">
+              <h4 style="font-size: 20px; font-weight: 600; color: #333;">Item 2</h4>
+              <p style="font-size: 14px; color: #666; cursor:pointer; text-align: justify;" data-toggle="modal" data-target="#item2DescModal">
+                ESP32-CAM, a compact and affordable camera module powered by the ESP32 microcontroller. This board is widely used 
+                for video streaming, image processing, and AI-based...
+                <span style="color:#007bff; text-decoration:underline;">Read more</span>
+              </p>
+              <h5 style="font-size: 18px; font-weight: 700; color: #007bff;">₱ 750.00</h5>
+              <button class="btn btn-primary" data-toggle="modal" data-target="#item2Modal" style="background-color: #007bff; border: none; padding: 10px 20px; font-size: 14px; font-weight: 600; border-radius: 5px; transition: background-color 0.3s;">Buy Now</button>
+              <button class="btn btn-secondary" data-toggle="modal" data-target="#addToCartModal2" style="background-color: #6c757d; border: none; padding: 10px 20px; font-size: 14px; font-weight: 600; border-radius: 5px; transition: background-color 0.3s;">Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="col-md-4">
+          <div class="store_item" style="background: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+            <div class="img-box">
+              <img src="images/nVIDIA.png" alt="Item 3" style="width: 100%; height: auto; border-bottom: 1px solid #eee;">
+            </div>
+            <div class="detail-box" style="padding: 20px; text-align: center;">
+              <h4 style="font-size: 20px; font-weight: 600; color: #333;">Item 3</h4>
+              <p style="font-size: 14px; color: #666; cursor:pointer; text-align: justify;" data-toggle="modal" data-target="#item3DescModal">
+                NVIDIA offers powerful AI boards designed for edge computing, robotics, 
+                and AI-driven applications. One of the latest models, the Jetson Orin 
+                Nano Super...
+                <span style="color:#007bff; text-decoration:underline;">Read more</span>
+              </p>
+              <h5 style="font-size: 18px; font-weight: 700; color: #007bff;">₱ 1,000.00</h5>
+              <button class="btn btn-primary" data-toggle="modal" data-target="#item3Modal" style="background-color: #007bff; border: none; padding: 10px 20px; font-size: 14px; font-weight: 600; border-radius: 5px; transition: background-color 0.3s;">Buy Now</button>
+              <button class="btn btn-secondary" data-toggle="modal" data-target="#addToCartModal3" style="background-color: #6c757d; border: none; padding: 10px 20px; font-size: 14px; font-weight: 600; border-radius: 5px; transition: background-color 0.3s;">Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modals -->
+  <!-- Modal for Item 1 -->
+  <div id="item1Modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="item1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="item1ModalLabel">Item 1 Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>High-quality product with amazing features.</p>
+          <h5>₱ 500.00</h5>
+          <div id="paypal-button-container"></div>
+        <p id="result-message"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Item 2 -->
+  <div id="item2Modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="item2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="item2ModalLabel">Item 2 Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="item2ImageCarousel" class="carousel slide mb-3" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#item2ImageCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#item2ImageCarousel" data-slide-to="1"></li>
+              <li data-target="#item2ImageCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/ESP32-CAM-wiring-FTDI1.png" class="d-block w-100" alt="Item 2 - Image 1">
+              </div>
+              <div class="carousel-item">
+                <img src="images/ESP32-Camera-Board (1).jpg" class="d-block w-100" alt="Item 2 - Image 2">
+              </div>
+              <div class="carousel-item">
+                <img src="images/warning.jpg" class="d-block w-100" alt="Item 2 - Image 3">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#item2ImageCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#item2ImageCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <p>Perfect for your needs with great value.</p>
+          <h5>₱ 750.00</h5>
+          <div id="paypal-button-container2"></div>
+        <p id="result-message2"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Item 3 -->
+  <div id="item3Modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="item3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="item3ModalLabel">Item 3 Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="item3ImageCarousel" class="carousel slide mb-3" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#item3ImageCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#item3ImageCarousel" data-slide-to="1"></li>
+              <li data-target="#item3ImageCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Board Nvidia.png" class="d-block w-100" alt="Item 3 - Image 1">
+              </div>
+              <div class="carousel-item">
+                <img src="images/nvidia-project-digits-exploded-vew-ari-22.jpeg" class="d-block w-100" alt="Item 3 - Image 2">
+              </div>
+              <div class="carousel-item">
+                <img src="images/ai-software-partners.jpeg" class="d-block w-100" alt="Item 3 - Image 3">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#item3ImageCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#item3ImageCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <p>Get the best deal with this amazing product.</p>
+          <h5>₱ 1,000.00</h5>
+          <div id="paypal-button-container3"></div>
+        <p id="result-message3"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Cart Modals -->
+<!-- Modal for Item 1 -->
+<div id="addToCartModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="addToCartModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="addToCartModalLabel1">Add Item 1 to Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <paypal-add-to-cart-button data-id="M6D6UMUEA8UZ4"></paypal-add-to-cart-button>
+            <script>cartPaypal.AddToCart({ id: "M6D6UMUEA8UZ4" })</script>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal for Item 2 -->
+  <div id="addToCartModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="addToCartModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="addToCartModalLabel2">Add Item 2 to Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <paypal-add-to-cart-button data-id="7Y2NVB5NCQKH8"></paypal-add-to-cart-button>
+            <script>
+              cartPaypal.AddToCart({ id: "7Y2NVB5NCQKH8" })
+            </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal for Item 3 -->
+  <div id="addToCartModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="addToCartModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="addToCartModalLabel3">Add Item 3 to Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <paypal-add-to-cart-button data-id="HHG8EV3S79GVN"></paypal-add-to-cart-button>
+            <script>
+              cartPaypal.AddToCart({ id: "HHG8EV3S79GVN" })
+            </script>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+  <!-- Footer Section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Harold Kent V. Roxas - HARUKO.AI</a>
+      </p>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+
+  <!-- jQuery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.js"></script>
+  <!-- Custom JS -->
+  
+  <script src="https://www.paypal.com/sdk/js?client-id=test&buyer-country=US&currency=USD&components=buttons&enable-funding=venmo,paylater,card"
+  data-sdk-integration-source="developer-studio"></script>
+<script src="app.js"></script>  
+  
+  <script>
+    function showModal(title, description, image, price) {
+      document.getElementById('modalTitle').innerText = title;
+      document.getElementById('modalDescription').innerText = description;
+      document.getElementById('modalImage').src = image;
+      document.getElementById('modalPrice').innerText = price;
+      $('#productModal').modal('show');
+    }
+
+    
+  </script>
+
+  <!-- Modal for Item 1 Description -->
+  <!-- Modal for Item 1 Description with Image Carousel -->
+<div class="modal fade" id="item1DescModal" tabindex="-1" role="dialog" aria-labelledby="item1DescModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="item1DescModalLabel">Item 1 Description</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="font-size: 15px; color: #444;">
+        <!-- Carousel Start -->
+        <div id="item1DescCarousel" class="carousel slide mb-3" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#item1DescCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#item1DescCarousel" data-slide-to="1"></li>
+            <li data-target="#item1DescCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/CH341A.png" class="d-block w-100" alt="CH341A Programmer 1">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Programmer.png" class="d-block w-100" alt="CH341A Programmer 2">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Board.jpg" class="d-block w-100" alt="CH341A Programmer 3">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#item1DescCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#item1DescCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- Carousel End -->
+        <div style="text-align: justify;">
+          The CH341A Programmer is a versatile USB-based tool used for programming and debugging EEPROM, 
+          SPI flash memory, and other ICs. It supports I2C, SPI, and UART communication, 
+          making it useful for tasks like BIOS flashing, firmware updates, and chip 
+          diagnostics. This programmer is widely used by hardware developers and repair 
+          technicians due to its affordability and ease of use. It connects via USB and
+          works with various software tools to read, write, and verify data on supported 
+          chips. Some versions come with additional adapters for different chip types, 
+          enhancing compatibility and functionality.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Item 2 Description -->
+<div class="modal fade" id="item2DescModal" tabindex="-1" role="dialog" aria-labelledby="item2DescModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="item2DescModalLabel">Item 2 Description</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="font-size: 15px; color: #444;">
+        <!-- Carousel Start -->
+        <div id="item2DescCarousel" class="carousel slide mb-3" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#item2DescCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#item2DescCarousel" data-slide-to="1"></li>
+            <li data-target="#item2DescCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/ESP32-CAM-wiring-FTDI1.png" class="d-block w-100" alt="ESP32-CAM 1">
+            </div>
+            <div class="carousel-item">
+              <img src="images/ESP32-Camera-Board (1).jpg" class="d-block w-100" alt="ESP32-CAM 2">
+            </div>
+            <div class="carousel-item">
+              <img src="images/warning.jpg" class="d-block w-100" alt="ESP32-CAM 3">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#item2DescCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#item2DescCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- Carousel End -->
+        <div style="text-align: justify;">
+          ESP32-CAM is a compact and affordable camera module powered by the ESP32 microcontroller. This board is widely used for video streaming, image processing, and AI-based applications like facial recognition. It features an OV2640 camera sensor, supports Wi-Fi connectivity, and includes a microSD card slot for storage. The ESP32-CAM is popular for DIY security cameras, smart home projects, and embedded vision applications. Its versatility and low cost make it a favorite among makers and developers for rapid prototyping and IoT solutions.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Item 3 Description -->
+<div class="modal fade" id="item3DescModal" tabindex="-1" role="dialog" aria-labelledby="item3DescModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="item3DescModalLabel">Item 3 Description</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="font-size: 15px; color: #444;">
+        <!-- Carousel Start -->
+        <div id="item3DescCarousel" class="carousel slide mb-3" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#item3DescCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#item3DescCarousel" data-slide-to="1"></li>
+            <li data-target="#item3DescCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Board Nvidia.png" class="d-block w-100" alt="NVIDIA Board 1">
+            </div>
+            <div class="carousel-item">
+              <img src="images/nvidia-project-digits-exploded-vew-ari-22.jpeg" class="d-block w-100" alt="NVIDIA Board 2">
+            </div>
+            <div class="carousel-item">
+              <img src="images/ai-software-partners.jpeg" class="d-block w-100" alt="NVIDIA Board 3">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#item3DescCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#item3DescCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- Carousel End -->
+        <div style="text-align: justify;">
+          NVIDIA offers powerful AI boards designed for edge computing, robotics, and AI-driven applications. One of the latest models, the Jetson Orin Nano Super Developer Kit, delivers 67 TOPS of AI performance, making it ideal for running vision transformers, large language models, and multimodal AI workloads. It provides high memory bandwidth (102 GB/s) and a 1.7 GHz CPU, ensuring efficient processing for AI tasks. These AI boards are widely used in autonomous systems, industrial automation, and AI research, offering developers a compact yet powerful platform for building intelligent applications. NVIDIA continues to push the boundaries of generative AI and edge computing, making these boards essential for modern AI development.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

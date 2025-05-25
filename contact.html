@@ -47,13 +47,13 @@
             <span class=""> </span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
-              <li class="nav-item ">
+              <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="about.html">Update Log</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="service.html">Services</a>
@@ -61,7 +61,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="price.html">Pricing</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
+                <a class="nav-link" href="store.html">Store</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
             </ul>
@@ -96,21 +99,19 @@
       <div class="row">
         <div class="col-md-8 col-lg-6 mx-auto">
           <div class="form_container">
-            <form action="">
+            <!-- Updated Form -->
+            <form action="https://formspree.io/f/mzzrojnq" method="POST">
               <div>
-                <input type="text" placeholder="Your Name" />
+                <input type="text" name="name" placeholder="Your Name" required />
               </div>
               <div>
-                <input type="email" placeholder="Your Email" />
+                <input type="email" name="email" placeholder="Your Email" required />
               </div>
               <div>
-                <input type="text" placeholder="Your Phone" />
+                <input name="message" class="message-box" placeholder="Message" required></textarea>
               </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="btn_box ">
-                <button>
+              <div class="btn_box">
+                <button type="submit">
                   SEND
                 </button>
               </div>
@@ -203,7 +204,10 @@
               Info
             </h4>
             <p>
-              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+              HARUKO.AI is a customizable, offline AI assistant designed for privacy, 
+              efficiency, and user control. It empowers users with personalized AI 
+              interactions, working seamlessly anytime and anywhere without relying on 
+              cloud services. 
             </p>
           </div>
         </div>
@@ -230,7 +234,7 @@
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        <a href="https://html.design/">Harold Kent V. Roxas - HARUKO.AI</a>
       </p>
     </div>
   </footer>
