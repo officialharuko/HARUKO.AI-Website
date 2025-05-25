@@ -387,13 +387,6 @@ a:focus {
   animation: upDown 2s infinite;
 }
 
-// If you want to be extra sure it's active on all devices, add:
-@media (max-width: 768px) {
-  .slider_section .img-box img {
-    animation: upDown 2s infinite;
-  }
-}
-
 .about_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
